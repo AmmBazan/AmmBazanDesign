@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Ilustracion Digital</title>
+    <link rel="stylesheet" href="css/digital.css">   
+    <link rel="stylesheet" href="css/menu2.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div id="sidemenu" class="menu-collapsed">
+        
+    <!-- Header -->
+            <div id="header">
+                <div id="title"> <span>Diseño Grafico</span> </div>
+                <div id="menu-btn">
+                    <div class="btn-hamburger"></div>
+                    <div class="btn-hamburger"></div>
+                    <div class="btn-hamburger"></div>
+    </div>
+            </div>
+    <!--Profile-->
+            <div id="profile">
+                <div id="photo"> <a href="indexm.html"  > <img src="fp.jpg" alt="" srcset=""> </a> </div>
+                <div id="name"><span>Amira Bazan</span> </div>
+                <span>Home</span>
+
+            </div>
+    
+    <!--Items-->
+    
+            <div id="menu-items">
+               <div class="item">
+                   <a href="#">
+                    <div class="icon"> <a href="digital.html"  ><img src="pinturas/perro.png" alt="" srcset="">   </a> </a> </div>
+                       <div class="title"><span>I Digital</span></div>
+                   </a>
+               </div> 
+    
+    <div class="item separador">
+    </div>
+    <div class="item"> 
+        <a href="#">
+            <a href="#">
+                <div class="icon"> <a href="imagenes.html"  ><img src="modelado/thor.png" alt="" srcset="">   </a> </a> </div>
+               
+               
+               
+                    <div class="title"><span>Modelado 3D</span></div>
+            </a>
+    
+    </div>
+    
+    
+    <div class="item separador2">
+    
+    </div>
+    <div class="item"> 
+        
+        <a href="#">
+         
+            <div>
+    
+                
+                <div class="icon"> <a href="pinturas.html"  ><img src="pinturas/a.jpg" alt="" srcset="">   </a>
+    
+                </div>
+    
+                
+                <div class="title"><span> I Tradicional</span></div>
+               
+            </a>
+        </div>
+    
+    
+    </div>
+    </div>
+    
+            </div>
+            </div>
+         
+    
+
+
+
+
+    <header>
+        <h1> Arte Digital</h1>
+
+
+    </header>
+<div class="separador1"></div>
+<img class ="centro"src="pinturas/sesssh.jpg" alt="imagen no disponible">
+
+
+    <div class="main">
+        <div class="separador1"></div>
+
+        <img src="pinturas/BANANA SPLIT (2).jpg" alt="no disponible">
+        <div class="separador2"> </div>
+       <img src="pinturas/perro.png" alt="no disponible">
+       <div class="separador1"></div>
+       <img src="mate/hogwarst taza23.jpg" alt="no disponible">
+       <div class="separador2"> </div>
+       <img src="mate/hogwarst.jpg" alt="no disponible">
+       <div class="separador1"></div>
+       <img src="mate/samurai ok ok.jpg" alt="no disponible">
+       <div class="separador2"> </div>
+       <img src="mate/victoria f.jpg" alt="no disponible">
+       
+
+
+    </div>
+
+
+
+    <script> 
+
+
+
+        newFunction();
+        
+        function newFunction() {
+            const btn = document.querySelector('#menu-btn');
+            const menu = document.querySelector('#sidemenu');
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('menu-expanded');
+                menu.classList.toggle('menu-collapsed');
+        
+                document; querySelector('body').classList.toggle('body-expanded');
+            });
+        }
+        
+        
+        </script>
+
+    <footer>
+        Copyright 2020
+    </footer>
+</body>
+</html>
