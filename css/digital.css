@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer {
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.separador1 {
+    height: 10px;
+
+    clear: both;
+}
+
+.separador2 {
+    width: 2%;
+    height: 1px;
+    float: left;
+}
+
+.centro{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 10px;
+    
+ 
+    
+}
+
+img {
+    transition: all 0.5s linear;
+    border-style: solid;
+}
+img:hover{
+    transform: scale(0.9);
+    border-radius: 30px;
+}
+
+.main img{
+    width: 48%;
+    float: left;
+
+}
+
+
+.main{
+    height:1200px ;
+    
+}
+body{
+    background-image: url(fondos/color.jpg);
+    background-position: center
+    center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>menu </title>
+        <link rel="stylesheet" href="css/menu.css">
+    </head>
+    <body>
+        <div id="sidemenu" class="menu-collapsed">
+        
+<!-- Header -->
+        <div id="header">
+            <div id="title"> <span>vida mrr</span> </div>
+            <div id="menu-btn">
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+</div>
+        </div>
+<!--Profile-->
+        <div id="profile">
+            <div id="photo"> <img src="king.jpg" alt="" srcset=""> </div>
+            <div id="name"><span>Amm B</span> </div>
+        </div>
+
+<!--Items-->
+
+        <div id="menu-items">
+           <div class="item">
+               <a href="#">
+                   <div class="icon"><img src="king.jpg" alt="" srcset=""></div>
+                   <div class="title"><span>cloud services</span></div>
+               </a>
+           </div> 
+
+<div class="item separador">
+</div>
+<div class="item"> 
+    <a href="#">
+        <div class="icon"><img src="penacho.png" alt="" srcset=""></div>
+        <div class="title"><span>Ilustraciones</span></div>
+
+</div>
+
+
+<div class="item separador2">
+</div>
+<div class="item"> 
+    <a href="#">
+        <div class="icon"><img src="penacho.png" alt="" srcset=""></div>
+        <div class="title"><span>Ilustraciones</span></div>
+
+</div>
+</div>
+
+        </div>
+        </div>
+        <div id="main-container">
+        hola a todos
+    </div>
+
+<script> 
+
+
+
+newFunction();
+
+function newFunction() {
+    const btn = document.querySelector('#menu-btn');
+    const menu = document.querySelector('#sidemenu');
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('menu-expanded');
+        menu.classList.toggle('menu-collapsed');
+
+        document; querySelector('body').classList.toggle('body-expanded');
+    });
+}
+
+
+</script>
+
+    </body>
+    </html>

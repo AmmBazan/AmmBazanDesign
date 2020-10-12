@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    color: whitesmoke;
+   
+    font-style: initial;
+}
+#contenedor {
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+header {
+    height: 100px;
+    background: #000;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+  
+    
+}
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+    
+}
+nav {
+   background:plum;
+   height: 60px;
+   border-radius: 20px; 
+   border-style: solid;
+   margin-top: 5px;
+   border-color: white;
+   color: black;
+
+}
+
+nav h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+#contenido {
+    width: 950px;
+    height: 450px;
+    float: left;
+    background: turquoise;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 20px;
+   
+    text-align: center;
+    border-color: white;
+    color: black;
+}
+#contenido h2 {
+    font-size: 40px;
+    text-align: left;
+    line-height: 50px;
+background-color: wheat;
+border-color: grey;
+color: black;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 20px;
+   
+    text-align: center;
+}
+
+#contenido p {
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    text-align: justify;
+    
+
+    
+}
+
+aside {
+    width: 240px;
+    height: 450px;
+    background: skyblue;
+    margin-top: 10px;
+    float: right;
+
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    color: black;
+    
+}
+ #item2 {
+    width: 50%;
+   
+ }
+aside h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+
+}
+footer {
+    background: #000;
+    clear: both;
+}
+footer h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+font-style: italic;
+}
